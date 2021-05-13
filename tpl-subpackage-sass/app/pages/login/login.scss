@@ -1,0 +1,73 @@
+@import '../../sass/common';
+
+.login-container {
+  height: 100%;
+  background-color: $white;
+
+  .login-header {
+    image {
+      @include size(210rpx, 72rpx);
+      padding: 42rpx 0 78rpx;
+    }
+  }
+
+  .login-form {
+    display: block;
+    width: 100%;
+    padding: 0 32rpx;
+    box-sizing: border-box;
+
+    .login-form-phone {
+      height: 88rpx;
+
+      &.active {
+        border-bottom: 1rpx solid $theme-color;
+      }
+
+      &.normal {
+        border-bottom: 1rpx solid $color-e5;
+      }
+
+      image {
+        @include size(24rpx, 32rpx);
+        padding: 0 40rpx 0 24rpx;
+      }
+
+      button {
+        @include size(220rpx, 60rpx, 'no');
+      }
+
+    }
+
+    .login-form-captcha {
+      height: 88rpx;
+
+      &.active {
+        border-bottom: 1rpx solid $theme-color;
+      }
+
+      &.normal {
+        border-bottom: 1rpx solid $color-e5;
+      }
+
+      image {
+        @include size(30rpx, 24rpx);
+        padding: 0 38rpx 0 20rpx;
+
+      }
+    }
+
+    .btn-login {
+      width: 100%;
+      margin: 66rpx 0 42rpx;
+    }
+  }
+
+  .login-footer {
+    view {
+      padding: 0 32rpx;
+      line-height: 26rpx;
+    }
+  }
+
+}

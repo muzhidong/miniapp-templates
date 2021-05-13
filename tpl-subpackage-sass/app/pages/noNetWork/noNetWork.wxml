@@ -1,0 +1,11 @@
+<block>
+  <view class="box">
+    <image class="no-network-image" src="/assets/images/placeholder_error@2x.png"></image>
+  </view>
+  <view class="box, mt48">
+    <text class="no-network-text">网络好像失联了</text>
+  </view>
+  <view class="box, mt32">
+    <button type="primary" class="refresh-btn" bindtap="refresh">刷新</button>
+  </view>
+</block>

@@ -1,0 +1,74 @@
+.login-container {
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.login-container .login-header image {
+  width: 210rpx;
+  height: 72rpx;
+  max-width: 210rpx;
+  max-height: 72rpx;
+  padding: 42rpx 0 78rpx;
+}
+
+.login-container .login-form {
+  display: block;
+  width: 100%;
+  padding: 0 32rpx;
+  box-sizing: border-box;
+}
+
+.login-container .login-form .login-form-phone {
+  height: 88rpx;
+}
+
+.login-container .login-form .login-form-phone.active {
+  border-bottom: 1rpx solid #3399ff;
+}
+
+.login-container .login-form .login-form-phone.normal {
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.login-container .login-form .login-form-phone image {
+  width: 24rpx;
+  height: 32rpx;
+  max-width: 24rpx;
+  max-height: 32rpx;
+  padding: 0 40rpx 0 24rpx;
+}
+
+.login-container .login-form .login-form-phone button {
+  width: 220rpx;
+  height: 60rpx;
+}
+
+.login-container .login-form .login-form-captcha {
+  height: 88rpx;
+}
+
+.login-container .login-form .login-form-captcha.active {
+  border-bottom: 1rpx solid #3399ff;
+}
+
+.login-container .login-form .login-form-captcha.normal {
+  border-bottom: 1rpx solid #e5e5e5;
+}
+
+.login-container .login-form .login-form-captcha image {
+  width: 30rpx;
+  height: 24rpx;
+  max-width: 30rpx;
+  max-height: 24rpx;
+  padding: 0 38rpx 0 20rpx;
+}
+
+.login-container .login-form .btn-login {
+  width: 100%;
+  margin: 66rpx 0 42rpx;
+}
+
+.login-container .login-footer view {
+  padding: 0 32rpx;
+  line-height: 26rpx;
+}

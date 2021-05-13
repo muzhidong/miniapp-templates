@@ -1,0 +1,43 @@
+{
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/exception/exception",
+          "pathName": "pages/exception/exception",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "ywqr/pages/main/main",
+          "pathName": "ywqr/pages/main/main",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/noNetWork/noNetWork",
+          "pathName": "pages/noNetWork/noNetWork",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

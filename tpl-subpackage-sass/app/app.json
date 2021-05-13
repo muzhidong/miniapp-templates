@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/protocol/protocol",
+    "pages/exception/exception",
+    "pages/index/index",
+    "pages/noNetWork/noNetWork"
+  ],
+  "subpackages": [{
+    "root": "ywqr",
+    "name": "business-confirm",
+    "independent": false,
+    "pages": [
+      "pages/main/main"
+    ]
+  }],
+  "preloadRule": {
+    "pages/login/login": {
+      "network": "wifi",
+      "packages": ["__APP__"]
+    },
+    "ywqr/pages/main/main": {
+      "network": "wifi",
+      "packages": ["business-confirm"]
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "慧算账助手",
+    "navigationBarTextStyle": "black",
+    "initialRenderingCache": "static"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

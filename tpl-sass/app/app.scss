@@ -1,0 +1,571 @@
+@import 'sass/common';
+
+/**************** 界面初始化 start *******************/
+page {
+  width: 100%;
+  height: 100%;
+  background-color: $color-f5;
+  overflow: hidden auto;
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/**************** 界面初始化 end *******************/
+
+
+/**************** 字体颜色类 start *******************/
+.fc-t {
+  color: $theme-color;
+}
+
+.fc-c0 {
+  color: $color-1a;
+}
+
+.fc-c1 {
+  color: $color-66;
+}
+
+.fc-c2 {
+  color: $color-99;
+}
+
+.fc-c3 {
+  color: $color-e5;
+}
+
+.fc-cc {
+  color: $color-cc;
+}
+
+.fc-cx {
+  color: $white;
+}
+
+.fc-b1 {
+  color: $color-ff3333;
+}
+
+.fc-black {
+  color: $black;
+}
+
+.fc-70 {
+  color: $color-70;
+}
+
+/**************** 字体颜色类 end *******************/
+
+
+/**************** 字体大小类 start *******************/
+.fs20 {
+  font-size: 20rpx;
+}
+
+.fs22 {
+  font-size: 22rpx;
+}
+
+.fs24 {
+  font-size: 24rpx;
+}
+
+.fs26 {
+  font-size: 26rpx;
+}
+
+.fs28 {
+  font-size: 28rpx;
+}
+
+.fs30 {
+  font-size: 30rpx;
+}
+
+.fs32 {
+  font-size: 32rpx;
+}
+
+.fs34 {
+  font-size: 34rpx;
+}
+
+/**************** 字体大小类 end *******************/
+
+
+/**************** 字体风格类 start *******************/
+.bold {
+  font-weight: bold;
+}
+
+.normal {
+  font-weight: normal;
+}
+
+/**************** 字体风格类 end *******************/
+
+
+/**************** 外边距值 start *******************/
+.mb16 {
+  margin-bottom: 16rpx;
+}
+
+.mb24 {
+  margin-bottom: 24rpx;
+}
+
+.mb40 {
+  margin-bottom: 40rpx;
+}
+
+.mb32 {
+  margin-bottom: 32rpx;
+}
+
+/**************** 外边距值 end *******************/
+
+
+/**************** 显示隐藏 start *******************/
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/**************** 显示隐藏 end *******************/
+
+
+/**************** 滚动 start *******************/
+.box {
+  box-sizing: border-box;
+  display: block;
+  width: inherit;
+}
+
+.fbox {
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+/**************** 滚动 end *******************/
+
+
+/**************** flex布局类 start *******************/
+/** 
+  命名 .f-x{x}-y{y} 
+      x后的x参数： l：水平靠左，r：水平靠右，c：水平居中，b：space-between，a：space-around
+      y后的y参数： t：垂直靠上，b：垂直靠下，c：垂直居中，l：baseline 对齐，s：stretch 拉伸至父容器高度
+ */
+
+/** .f-xl-y{y} start */
+.f-xl-yt {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.f-xl-yb {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.f-xl-yc {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.f-xl-yl {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.f-xl-ys {
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+/** .f-xl-y{y} end */
+
+/** .f-xr-y{y} start */
+.f-xr-yt {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.f-xr-yb {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.f-xr-yc {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.f-xr-yl {
+  display: flex;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.f-xr-ys {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+
+/** .f-xr-y{y} end */
+
+/** .f-xc-y{y} start */
+.f-xc-yt {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.f-xc-yb {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.f-xc-yc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f-xc-yl {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.f-xc-ys {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+
+/** .f-xc-y{y} end */
+
+/** .f-xb-y{y} start */
+.f-xb-yt {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.f-xb-yb {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.f-xb-yc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.f-xb-yl {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.f-xb-ys {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+/** .f-xb-y{y} end */
+
+/** .f-xa-y{y} start */
+.f-xa-yt {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.f-xa-yb {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+
+.f-xa-yc {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.f-xa-yl {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+
+.f-xa-ys {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+}
+
+/** .f-xr-y{y} end */
+/**************** flex布局类 end *******************/
+
+
+/**************** 多行超出显示 start *******************/
+.single-line {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.line-clamp1 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+}
+
+.line-clamp2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.line-clamp3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.line-clamp4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.line-clamp6 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 6;
+  overflow: hidden;
+}
+
+/**************** 多行超出显示 start *******************/
+
+
+/**************** 原生样式重置 start *******************/
+button {
+  padding: 0 !important;
+  margin: 0;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button::after {
+  display: none;
+}
+
+/**************** 原生样式重置 end *******************/
+
+
+/**************** 统一风格按钮 start *******************/
+/* 箭头按钮 */
+.arrow-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow-btn::after {
+  content: '';
+  display: inline-block;
+  width: .4em;
+  height: .4em;
+  border-width: 2rpx;
+  border-style: solid;
+  border-color: #999999 #999999 transparent transparent;
+}
+
+.arrow-btn.left::after {
+  transform: rotate(-135deg);
+}
+
+.arrow-btn.right::after {
+  transform: rotate(45deg);
+}
+
+.arrow-btn.up::after {
+  transform: translateY(2rpx) rotate(-45deg);
+}
+
+.arrow-btn.down::after {
+  transform: translateY(-2rpx) rotate(135deg);
+}
+
+
+/* 按钮 */
+.kg-btn {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 88rpx;
+
+  color: $white;
+
+  border-radius: 16rpx;
+
+  box-sizing: border-box;
+
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.kg-btn.enabled {
+  background-color: $theme-color;
+}
+
+.kg-btn.disabled {
+  background-color: $color-cc;
+}
+
+/**************** 统一风格按钮 end *******************/
+
+
+/**************** 背景图 start *******************/
+/* 背景图居中铺满 */
+.bgc {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* 背景图居中显示整体 */
+.bgct {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+
+/**************** 背景图 end *******************/
+
+/**************** 输入框、区域 start *******************/
+.c-input {
+  box-sizing: border-box;
+  flex-grow: 1;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88rpx;
+  padding: 0 32rpx;
+  border-radius: 44rpx;
+  border: 1px solid #e5e5e5;
+}
+
+.c-input.noborder {
+  border: none;
+}
+
+.c-input input {
+  flex-grow: 1;
+  flex-shrink: 1;
+  font-size: 30rpx;
+  color: #1a1a1a;
+}
+
+.c-input .input-placeholder {
+  color: #e5e5e5;
+}
+
+.c-textarea {
+  box-sizing: border-box;
+  padding: 12rpx;
+  border: 1px solid #e5e5e5;
+  border-radius: 16rpx;
+}
+
+.c-textarea textarea {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12rpx;
+}
+
+.c-textarea .number {
+  text-align: right;
+}
+
+.c-textarea .textarea-placeholder {
+  color: #cccccc;
+}
+
+/**************** 输入框、区域 end *******************/
+
+
+/**************** 对话框蒙层  start *******************/
+.tip {
+  z-index: 2147483647;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+/**************** 对话框蒙层 end *******************/
+
+/**************** 常用样式 start *******************/
+// 列表item
+.bar {
+  width: 100%;
+  height: 88rpx;
+  background-color: $white;
+}
+
+/**************** 常用样式 end *******************/

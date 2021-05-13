@@ -1,0 +1,101 @@
+{
+  "miniprogramRoot": "app/",
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "suffix",
+        "value": ".scss"
+      }
+    ]
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "autoAudits": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "bundle": false,
+    "preloadBackgroundData": false,
+    "showShadowRootInWxmlPanel": false,
+    "scopeDataCheck": false,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useIsolateContext": true,
+    "useCompilerModule": false,
+    "userConfirmedUseCompilerModuleSwitch": true,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true,
+    "useApiHostProcess": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.14.4",
+  "appid": "wxdc8403df7d749430",
+  "projectname": "%E5%85%AC%E7%91%BE%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%A8%A1%E6%9D%BF",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "scripts": {
+    "beforeCompile": "npm run compile",
+    "beforePreview": "npm run compile",
+    "beforeUpload": "npm run compile"
+  },
+  "condition": {
+    "search": {
+      "list": []
+    },
+    "conversation": {
+      "list": []
+    },
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/exception/exception",
+          "pathName": "pages/exception/exception",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "ywqr/pages/main/main",
+          "pathName": "ywqr/pages/main/main",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

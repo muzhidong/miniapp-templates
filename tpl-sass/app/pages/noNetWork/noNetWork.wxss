@@ -1,0 +1,32 @@
+.box {
+  text-align: center;
+}
+
+.no-network-image {
+  width: 383rpx;
+  height: 341.5rpx;
+  margin-top: 200rpx;
+}
+
+.no-network-text {
+  color: #707070;
+  font-size: 30rpx;
+  line-height: 42rpx;
+}
+
+.mt32 {
+  margin-top: 32rpx;
+}
+
+.mt48 {
+  margin-top: 48rpx;
+}
+
+.refresh-btn {
+  display: inline-block;
+  width: 200rpx;
+  height: 88rpx;
+  background-color: #2EB2F0 !important;
+  line-height: 88rpx;
+  color: #fff;
+}
