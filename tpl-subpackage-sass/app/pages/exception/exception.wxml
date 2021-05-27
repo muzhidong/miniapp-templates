@@ -1,6 +1,0 @@
-<!-- pages/exception/exception.wxml -->
-<view class="container,exception-container,f-xl-yc">
-		<image src="/assets/images/placeholder_empty.svg" mode="aspectFill" />
-		<view class="fs30,fc-c2">登录异常，需要您重新登录</view>
-		<view class="kg-btn,enabled,btn-login" bindtap="toIndex">去登录</view>
-</view>
