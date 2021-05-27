@@ -1,2 +1,0 @@
-<!-- pages/protocol/protocol.wxml -->
-<web-view src="{{url}}" />
