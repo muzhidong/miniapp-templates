@@ -1,6 +1,6 @@
 # pj-templates
 
-## 原生微信小程序项目模板
+## 一、原生微信小程序项目模板
 ### 特性
 - 提供模块引入统一入口
 
@@ -33,8 +33,8 @@
 	通过引入`miniprogram-slim`工具实现
 
 ### 模板选择
-- [没有分包结构的小程序模板]()
+- [没有分包结构的小程序模板](https://github.com/muzhidong/pj-templates/tree/tpl-miniapp-sass)
 
-- [有分包结构的小程序模板]()
+- [有分包结构的小程序模板](https://github.com/muzhidong/pj-templates/tree/tpl-miniapp-subpackage-sass)
 
 	
